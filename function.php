@@ -169,12 +169,96 @@ function get_product_url($value_1, $id) {
         <div class="col-lg-4 info">
         <h1><?php echo $row[3]. ' '.$row[1];?></h1> 
        
-        <select class="form-select" id="inputGroupSelect01">
-            <option selected>Choose...</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-        </select></div>
+        <div class="props">
+            <div class="left">
+              <div class="size-select">
+                <div class="toggler">
+                  <span>Выберите Размер</span>
+                </div>
+                <div class="hover">
+                  <div class="language">
+                    <span class="active">Rus </span>
+                  </div>
+                  <div class="size-blocks">
+                    <div class="outer active">
+                      <input type="hidden" name="option[16455]" value="" class="grid-option">
+                      <div class="size-block">
+                        <button data-product-option-id="16455" data-product-option-value-id="133768"
+                          class="size-button">36</button>
+                        <button data-product-option-id="16455" data-product-option-value-id="133769"
+                          class="size-button">37</button>
+                        <button data-product-option-id="16455" data-product-option-value-id="133770"
+                          class="size-button">38</button>
+                        <button data-product-option-id="16455" data-product-option-value-id="133771"
+                          class="size-button">39</button>
+                        <button data-product-option-id="16455" data-product-option-value-id="133772"
+                          class="size-button">40</button>
+                      </div>
+                    </div>
+                    <div class="outer">
+                      <div class="size-block">
+                        <button data-product-option-id="16455" data-product-option-value-id="133768"
+                          class="size-button">36</button>
+                        <button data-product-option-id="16455" data-product-option-value-id="133769"
+                          class="size-button">37</button>
+                        <button data-product-option-id="16455" data-product-option-value-id="133770"
+                          class="size-button">38</button>
+                        <button data-product-option-id="16455" data-product-option-value-id="133771"
+                          class="size-button">39</button>
+                        <button data-product-option-id="16455" data-product-option-value-id="133772"
+                          class="size-button">40</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="size-grid">
+                    <a href="https://www-yeezy.com/#sizetbl" class="popup-with-form">Таблица размеров</a>
+                  </div>
+                </div>
+              </div>
+              <div class="d-none d-md-block">
+                <div class="selected-props">
+                  <div class="go-to-info">
+                    <a href="https://www-yeezy.com/#detail-description" class="goscroll">Перейти к описанию</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="instock">
+                <span>Есть в наличии</span>
+              </div>
+              <div class="delivery">
+                <span>Курьер доставит завтра</span>
+              </div>
+              <div class="price">
+                <p>10 990<span class="currency">руб.</span></p>
+              </div>
+
+              <div class="d-md-none">
+                <div class="selected-props">
+                  <div class="go-to-info">
+                    <a href="https://www-yeezy.com/#detail-description" class="goscroll">Перейти к описанию</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="controls">
+            <div class="left">
+              <button class="btn btn-a2c">Добавить в корзину</button>
+              <div class="product-info">
+                <input type="hidden" class="product-name" value="Yeezy Boost 350 V2 Antlia">
+                <input type="hidden" class="product-price" value="10990">
+                <input type="hidden" class="product-brand" value="">
+                <input type="hidden" class="product-category" value="">
+                <input type="hidden" class="product-variant" value="">
+              </div>
+              
+            </div><div class="right">
+              <button class="btn btn-fb" style="background-color:grey">купить в 1 клик</button>
+
+            </div>
+            </div>
+          </div></div>
         </div></div>
         
 <?php
