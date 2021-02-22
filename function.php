@@ -252,11 +252,90 @@ function get_product_url($value_1, $id) {
                 <input type="hidden" class="product-category" value="">
                 <input type="hidden" class="product-variant" value="">
               </div>
-              
+              <script type="text/javascript">
+
+                  function openbox(id) {
+                      display = document.getElementById(id).style.display;
+
+                      if (display == 'none') {
+                          document.getElementById(id).style.display = 'block';
+                      } else {
+                          document.getElementById(id).style.display = 'none';
+                      }
+                  } </script>
+
             </div><div class="right">
-              <button class="btn btn-fb" style="background-color:grey">купить в 1 клик</button>
+              <button class="btn btn-fb" style="background-color:grey"><a href="#" onclick="openbox('fancybox-stage');">купить в 1 клик</a></button>
 
             </div>
+            <div class="fancybox-stage" style="display:none"><div class="fancybox-slide fancybox-slide--html fancybox-slide--current fancybox-slide--complete"><div style="display: inline-block;" id="fast-purchase" class="popup fancybox-content" data-selectable="true"><button data-fancybox-close="" class="fancybox-close-small" title="Close"><svg viewBox="0 0 32 32"><path d="M10,10 L22,22 M22,10 L10,22"></path></svg></button><div class="popupform">
+  <div class="title">Купить в 1 клик</div>
+  <div class="subtitle">Заполните форму для оформления заказ</div>
+  <input type="hidden" name="product_id" value="1523">
+  <div class="form-input">
+    <label>
+      <span>ФИО</span>
+      <input type="text" class="input-field input-name" placeholder="Введите Ваше имя" name="name" id="one-name">
+    </label>
+  </div>
+  <div class="form-input">
+    <label>
+      <span>Телефон</span>
+      <input type="text" class="phone-field input-phone" placeholder="Введите телефон" name="phone" id="one-phone">
+    </label>
+  </div>
+  <div class="form-input">
+    <label>
+      <span>Размер</span>
+    </label>
+                  <div class="size-select">
+          <div class="toggler">
+            <span>Выберите Размер</span>
+          </div>
+          <div class="hover">
+            <div class="language">
+              <span class="active">Rus </span>
+              <span> en</span>
+            </div>
+            <div class="size-blocks">
+              <div class="outer active">
+                <input type="hidden" name="option[16455]" value="" class="grid-option">
+                <div class="size-block">
+                                      <button data-product-option-id="16455" data-product-option-value-id="133768" class="size-button">36</button>
+                                      <button data-product-option-id="16455" data-product-option-value-id="133769" class="size-button">37</button>
+                                      <button data-product-option-id="16455" data-product-option-value-id="133770" class="size-button">38</button>
+                                      <button data-product-option-id="16455" data-product-option-value-id="133771" class="size-button">39</button>
+                                      <button data-product-option-id="16455" data-product-option-value-id="133772" class="size-button">40</button>
+                                  </div>
+              </div>
+              <div class="outer">
+                <div class="size-block">
+                                      <button data-product-option-id="16455" data-product-option-value-id="133768" class="size-button">36</button>
+                                      <button data-product-option-id="16455" data-product-option-value-id="133769" class="size-button">37</button>
+                                      <button data-product-option-id="16455" data-product-option-value-id="133770" class="size-button">38</button>
+                                      <button data-product-option-id="16455" data-product-option-value-id="133771" class="size-button">39</button>
+                                      <button data-product-option-id="16455" data-product-option-value-id="133772" class="size-button">40</button>
+                                  </div>
+              </div>
+            </div>
+            <div class="size-grid">
+              <a href="#">Таблица размеров</a>
+            </div>
+          </div>
+        </div>
+            </div>
+  <div class="form-controls">
+    <button class="btn btn-a2c" id="oneclick-order">Оформить заказ</button>
+    <div class="product-info">
+      <input type="hidden" class="product-id" value="1523">
+      <input type="hidden" class="product-name" value="Yeezy Boost 350 V2 Antlia">
+      <input type="hidden" class="product-price" value="10990">
+      <input type="hidden" class="product-brand" value="">
+      <input type="hidden" class="product-category" value="Yeezy Boost 350 V2">
+      <input type="hidden" class="product-variant" value="">
+    </div>
+  </div>
+</div></div></div></div>
             </div>
           </div></div>
         </div></div>
